@@ -1,7 +1,24 @@
 aid: cakeshop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cakeshop.png
 name: Cakeshop
-description: Cakeshop is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cakeshop is a commerce-enablement platform that helps creators monetize their
+  expertise, selling digital products, courses, and services directly to their audiences. It was
+  a San Francisco-based startup operating in the creator-economy and content-monetization space,
+  surfaced in the API Evangelist network as a portfolio company of 500 Global. As of this
+  enrichment pass its public site (getcakeshop.co) returns an expired Squarespace notice, and no
+  public API, developer portal, documentation, SDKs, or GitHub organization could be discovered;
+  the domain still resolves over TLS and was probed for baseline security posture.
 url: https://raw.githubusercontent.com/api-evangelist/cakeshop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Creator Economy
+- Commerce
+- Monetization
+- Creators
+- Digital Products
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cakeshop-domain-security.yml
 - type: Website
   url: https://getcakeshop.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
