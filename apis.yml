@@ -47,7 +47,6 @@ tags:
 - Monetization
 - Creators
 - Digital Products
-- Startups
 tags_raw:
 - Company
 - Creator Economy
@@ -55,7 +54,6 @@ tags_raw:
 - Monetization
 - Creators
 - Digital Products
-- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -72,3 +70,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
