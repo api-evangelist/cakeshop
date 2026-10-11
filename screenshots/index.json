@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "cakeshop",
+    "captured_at": "2026-10-11T183921",
+    "source_url": "https://getcakeshop.co",
+    "source_type": "Website",
+    "file": "cakeshop-2026-10-11T183921.png",
+    "bytes": 17438,
+    "capture": "playwright-local"
+  }
+]
